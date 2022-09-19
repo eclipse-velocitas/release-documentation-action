@@ -32,15 +32,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.head_ref }}
 
       - name: Clone License Check Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: eclipse-velocitas/license-check
-          ref: v1
+          ref: v1.2.0
           path: .github/actions/license-check
 
       - id: run-license-checker
