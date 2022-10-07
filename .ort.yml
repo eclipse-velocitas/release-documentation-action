@@ -1,0 +1,6 @@
+curations:
+  packages:
+  - id: "NPM::es5-ext:0.10.53"
+    curations:
+      comment: "Correct License is ISC"
+      concluded_license: ISC
