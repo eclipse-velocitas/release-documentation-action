@@ -27,7 +27,7 @@ var ParserFactory = /** @class */ (function () {
         var Key = TestArtifact.Type.toString() + "-" + TestArtifact.Schema.toString();
         var Parser;
         if (this._Parsers.has(Key)) {
-            console.log("Found parser with key '" + Key + "'");
+            console.log("Found parser with key '".concat(Key, "'"));
             Parser = this._Parsers.get(Key);
         }
         else {
