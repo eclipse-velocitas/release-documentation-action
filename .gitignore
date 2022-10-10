@@ -119,3 +119,6 @@ typings/
 
 inbox
 outbox
+
+# MacOS
+.DS_Store

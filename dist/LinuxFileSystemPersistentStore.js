@@ -14,7 +14,11 @@
 // SPDX-License-Identifier: Apache-2.0
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -80,7 +84,7 @@ var LinuxFileSystemPersistentStore = /** @class */ (function () {
         var Filename = path.join(this._BasePath, Name);
         fs.mkdirSync(this._BasePath, { recursive: true });
         fs.writeFileSync(Filename, Data);
-        console.log("File written to " + Filename);
+        console.log("File written to ".concat(Filename));
     };
     LinuxFileSystemPersistentStore.prototype.List = function (Path) {
         return fs.readdirSync(Path);

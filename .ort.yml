@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Copyright (c) 2022 Robert Bosch GmbH and Microsoft Corporation
 #
 # This program and the accompanying materials are made available under the
@@ -14,19 +12,9 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-echo "## installing prerequisites"
-cd ..
-npm install
-
-echo "## creating test files"
-./scripts/CreateTestFiles.sh
-
-echo "## compiling typescript to javascript"
-tsc --build --verbose .
-
-echo "## creating index.js with ncc"
-cd dist
-npx ncc build ./src/action.js -o ncc
-
-echo "## content of ncc folder"
-ls ncc
+curations:
+  packages:
+    - id: "NPM::es5-ext:0.10.53"
+      curations:
+        comment: "Correct License is ISC"
+        concluded_license: ISC
