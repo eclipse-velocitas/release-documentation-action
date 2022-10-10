@@ -4,16 +4,16 @@
 | Dependency | Version | License |
 |:-----------|:-------:|--------:|
 |@actions/core|1.10.0|MIT|
-|@cucumber/cucumber|7.3.2|MIT|
+|@cucumber/cucumber|8.6.0|MIT|
 |@cucumber/pretty-formatter|1.0.0|MIT|
 |@types/chai|4.3.3|MIT|
 |@types/chai-string|1.4.2|MIT|
 |@types/cucumber|7.0.0|MIT|
-|@types/node|15.14.9|MIT|
+|@types/node|18.8.3|MIT|
 |@types/xml2js|0.4.11|MIT|
 |@typescript-eslint/eslint-plugin|5.39.0|MIT|
 |@typescript-eslint/parser|5.39.0|unknown|
-|@vercel/ncc|0.28.6|ISC<br/>MIT|
+|@vercel/ncc|0.34.0|ISC<br/>MIT|
 |chai|4.3.6|MIT|
 |chai-string|1.5.0|MIT|
 |cucumber-console-formatter|1.0.0|MIT|
