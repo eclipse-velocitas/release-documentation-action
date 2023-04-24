@@ -25,7 +25,7 @@
 |renderer|1.0.0|ISC|
 |ts-node|10.9.1|MIT|
 |typescript|4.8.4|Apache 2.0|
-|xml2js|0.4.23|MIT|
+|xml2js|0.5.0|MIT|
 ## Workflows
 | Dependency | Version | License |
 |:-----------|:-------:|--------:|
