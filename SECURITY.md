@@ -1,4 +1,5 @@
 <!--- https://www.eclipse.org/security/ --->
+
 _ISO 27005 defines vulnerability as:
 "A weakness of an asset or group of assets that can be exploited by one or more threats."_
 

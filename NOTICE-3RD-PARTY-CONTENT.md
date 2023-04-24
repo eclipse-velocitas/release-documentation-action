@@ -29,7 +29,8 @@
 ## Workflows
 | Dependency | Version | License |
 |:-----------|:-------:|--------:|
-|actions/checkout|v3||
-|actions/setup-node|v3||
-|actions/upload-artifact|v3||
-|pre-commit/action|v3.0.0||
+|actions/checkout|v3|MIT License|
+|actions/setup-node|v3|MIT License|
+|actions/upload-artifact|v3|MIT License|
+|pre-commit/action|v3.0.0|MIT License|
+
