@@ -33,4 +33,3 @@
 |actions/setup-node|v3|MIT License|
 |actions/upload-artifact|v3|MIT License|
 |pre-commit/action|v3.0.0|MIT License|
-
