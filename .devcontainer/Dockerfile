@@ -14,7 +14,7 @@
 
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.183.0/containers/typescript-node/.devcontainer/base.Dockerfile
 
-ARG VARIANT="18"
+ARG VARIANT="18-buster"
 FROM mcr.microsoft.com/devcontainers/typescript-node:${VARIANT}
 
 # [Optional] Uncomment this section to install additional OS packages.
