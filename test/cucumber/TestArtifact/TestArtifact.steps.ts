@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Robert Bosch GmbH and Microsoft Corporation
+// Copyright (c) 2022-2023 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -32,13 +32,13 @@ class TestArtifactSteps {
   }
 
   @when(
-    /we create a TestArtifact with CommitHash='(.*)' Type='(.*)' Schema='(.*)' and Container='(.*)'/
+    /we create a TestArtifact with CommitHash='(.*)' Type='(.*)' Schema='(.*)' and Container='(.*)'/,
   )
   public GivenWeHaveATestArtifact(
     CommitHash: string,
     Type: string,
     Schema: string,
-    Container: string
+    Container: string,
   ) {
     const TypeEnumValue =
       TestArtifactTypeEnum[Type as keyof typeof TestArtifactTypeEnum];
@@ -49,7 +49,7 @@ class TestArtifactSteps {
       TypeEnumValue,
       SchemaEnumValue,
       Container,
-      new MockPersistentStore()
+      new MockPersistentStore(),
     );
   }
 

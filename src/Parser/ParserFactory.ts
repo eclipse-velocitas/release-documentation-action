@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Robert Bosch GmbH and Microsoft Corporation
+// Copyright (c) 2022-2023 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -27,7 +27,7 @@ export class ParserFactory implements IParserFactory {
   public RegisterParser(
     Type: TestArtifactTypeEnum,
     Schema: TestArtifactSchemaEnum,
-    Parser: IParser
+    Parser: IParser,
   ): void {
     const Key = Type.toString() + "-" + Schema.toString();
     console.log("Registering parser for: " + Key);

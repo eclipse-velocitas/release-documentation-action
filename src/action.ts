@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Robert Bosch GmbH and Microsoft Corporation
+// Copyright (c) 2022-2023 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -57,7 +57,7 @@ Parse(Inbox, Outbox, Templates);
 function Parse(
   Inbox: IPersistentStore,
   Outbox: IPersistentStore,
-  Templates: ITemplateRepository
+  Templates: ITemplateRepository,
 ) {
   const Importer: ITestArtifactImporter = new TestArtifactImporter(Inbox);
   const Renderer: IRenderer = new TestArtifactRenderer(Templates);
@@ -66,27 +66,27 @@ function Parse(
   Parsers.RegisterParser(
     TestArtifactTypeEnum.UnitTest,
     TestArtifactSchemaEnum.JUnit,
-    new JUnitParser()
+    new JUnitParser(),
   );
   Parsers.RegisterParser(
     TestArtifactTypeEnum.VulnerabilityScan,
     TestArtifactSchemaEnum.JUnit,
-    new JUnitParser()
+    new JUnitParser(),
   );
   Parsers.RegisterParser(
     TestArtifactTypeEnum.IntegrationTest,
     TestArtifactSchemaEnum.Text,
-    new TextParser()
+    new TextParser(),
   );
   Parsers.RegisterParser(
     TestArtifactTypeEnum.IntegrationTest,
     TestArtifactSchemaEnum.JUnit,
-    new JUnitParser()
+    new JUnitParser(),
   );
   Parsers.RegisterParser(
     TestArtifactTypeEnum.CodeCoverage,
     TestArtifactSchemaEnum.Cobertura,
-    new CoberturaParser()
+    new CoberturaParser(),
   );
 
   Importer.GetTestArtifacts().forEach((Artifact: ITestArtifact) => {

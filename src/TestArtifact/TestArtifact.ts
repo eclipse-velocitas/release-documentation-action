@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Robert Bosch GmbH and Microsoft Corporation
+// Copyright (c) 2022-2023 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -31,7 +31,7 @@ export class TestArtifact implements ITestArtifact {
     Type: TestArtifactTypeEnum,
     Schema: TestArtifactSchemaEnum,
     Container: string,
-    PersistentStore: IPersistentStore
+    PersistentStore: IPersistentStore,
   ) {
     this.CommitHash = CommitHash;
     this.Type = Type;

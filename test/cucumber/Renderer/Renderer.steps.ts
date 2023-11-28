@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Robert Bosch GmbH and Microsoft Corporation
+// Copyright (c) 2022-2023 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -48,19 +48,19 @@ class RendererSteps {
   }
 
   @given(
-    /we mock the template repository with the template 'CodeCoverage-Cobertura\.md' and the following content/
+    /we mock the template repository with the template 'CodeCoverage-Cobertura\.md' and the following content/,
   )
   public GivenWeMockTheTemplateRepository(Content: string) {
     this._GivenTemplateRespository = new MockTemplateRepository(Content);
   }
 
   @given(
-    /we have a test result with schema '(.*)' of type '(.*)' and the following result/
+    /we have a test result with schema '(.*)' of type '(.*)' and the following result/,
   )
   public WeHaveATestResultWithSchema(
     Schema: string,
     Type: string,
-    Content: any
+    Content: any,
   ) {
     const TypeEnumValue =
       TestArtifactTypeEnum[Type as keyof typeof TestArtifactTypeEnum];
@@ -80,7 +80,7 @@ class RendererSteps {
   @when(/we call the Renderer/)
   public WhenWeCallTheRender(): void {
     var Renderer: IRenderer = new TestArtifactRenderer(
-      this._GivenTemplateRespository!
+      this._GivenTemplateRespository!,
     );
     this._ActionResult = Renderer.Render(this._GivenTestResult!);
   }
