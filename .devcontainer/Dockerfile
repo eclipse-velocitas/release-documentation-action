@@ -1,4 +1,4 @@
-# Copyright (c) 2022-2023 Contributors to the Eclipse Foundation
+# Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
 #
 # This program and the accompanying materials are made available under the
 # terms of the Apache License, Version 2.0 which is available at
@@ -27,4 +27,4 @@ FROM mcr.microsoft.com/devcontainers/typescript-node:${VARIANT}
 
 # [Optional] Uncomment if you want to install more global node packages
 # RUN su node -c "npm install -g <your-package-list -here>"
-RUN apt-get update && apt-get -y upgrade && apt-get -y install python3-full
+RUN apt-get update && apt-get -y upgrade && apt-get -y install python3-full python3-pip
