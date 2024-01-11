@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Robert Bosch GmbH and Microsoft Corporation
+// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -29,7 +29,7 @@ export class LinuxFileSystemPersistentStore implements IPersistentStore {
     var FilteredFiles: string[] = [];
 
     console.log(
-      "Scanning folder '" + this._BasePath + "' with filter '" + Filter + "'"
+      "Scanning folder '" + this._BasePath + "' with filter '" + Filter + "'",
     );
     var RootFileList = fs.readdirSync(this._BasePath);
 

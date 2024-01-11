@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Robert Bosch GmbH and Microsoft Corporation
+// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -37,7 +37,7 @@ class TestArtifactImporterSteps {
   }
 
   @given(
-    /we have a file with name '(.*)' and the following content in the inbox/
+    /we have a file with name '(.*)' and the following content in the inbox/,
   )
   public GivenWeHaveAFileInTheInbox2(Filename: string, Content: string) {
     this._GivenPersistentStore?.Save(Filename, Content);
@@ -46,7 +46,7 @@ class TestArtifactImporterSteps {
   @when(/we call GetTestArtifacts/)
   public WhenWeCallGetTestArtifacts() {
     const Importer: ITestArtifactImporter = new TestArtifactImporter(
-      this._GivenPersistentStore!
+      this._GivenPersistentStore!,
     );
     this._ActionResult = Importer.GetTestArtifacts();
   }

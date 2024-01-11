@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Robert Bosch GmbH and Microsoft Corporation
+// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -46,20 +46,20 @@ class CoberturaParserSteps {
   }
 
   @given(
-    /we have a file with name '(.*)' and the following content in the inbox/
+    /we have a file with name '(.*)' and the following content in the inbox/,
   )
   public GivenWeHaveAFileInTheInbox(Filename: string, Content: string) {
     this._GivenPersistentStore?.Save(Filename, Content);
   }
 
   @given(
-    /we have a TestArtifact with CommitHash='(.*)' Type='(.*)' Schema='(.*)' and Container='(.*)'/
+    /we have a TestArtifact with CommitHash='(.*)' Type='(.*)' Schema='(.*)' and Container='(.*)'/,
   )
   public GivenWeHaveATestArtifact(
     CommitHash: string,
     Type: string,
     Schema: string,
-    Container: string
+    Container: string,
   ) {
     const TypeEnumValue =
       TestArtifactTypeEnum[Type as keyof typeof TestArtifactTypeEnum];
@@ -70,7 +70,7 @@ class CoberturaParserSteps {
       TypeEnumValue,
       SchemaEnumValue,
       Container,
-      this._GivenPersistentStore!
+      this._GivenPersistentStore!,
     );
   }
 
