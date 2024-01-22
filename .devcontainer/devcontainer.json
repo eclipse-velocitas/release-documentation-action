@@ -9,33 +9,30 @@
       "VARIANT": "18"
     }
   },
-
-  // Set *default* container specific settings.json values on container create.
-  "settings": {},
-
-  // Add the IDs of extensions you want installed when the container is created.
-  "extensions": [
-    "dbaeumer.vscode-eslint",
-    "cschleiden.vscode-github-actions",
-    "christian-kohler.path-intellisense",
-    "esbenp.prettier-vscode",
-    "davidanson.vscode-markdownlint",
-    "eg2.vscode-npm-script",
-    "christian-kohler.npm-intellisense",
-    "alexkrechik.cucumberautocomplete",
-    "firsttris.vscode-jest-runner",
-    "piotr-porzuczek.jest-cucumber-code-generator-extension",
-    "kavod-io.vscode-jest-test-adapter",
-    "hbenl.vscode-test-explorer",
-    "ms-vsliveshare.vsliveshare"
-  ],
-
+  "customizations": {
+    "vscode": {
+      // Set *default* container specific settings.json values on container create.
+      "settings": {},
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "christian-kohler.path-intellisense",
+        "esbenp.prettier-vscode",
+        "davidanson.vscode-markdownlint",
+        "eg2.vscode-npm-script",
+        "christian-kohler.npm-intellisense",
+        "alexkrechik.cucumberautocomplete",
+        "firsttris.vscode-jest-runner",
+        "piotr-porzuczek.jest-cucumber-code-generator-extension",
+        "kavod-io.vscode-jest-test-adapter",
+        "hbenl.vscode-test-explorer"
+      ]
+    }
+  },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
-
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "python3 -m pip install pre-commit==3.5.0 --break-system-packages",
-
   // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node"
 }
