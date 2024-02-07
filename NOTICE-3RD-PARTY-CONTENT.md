@@ -4,7 +4,7 @@
 | Dependency | Version | License |
 |:-----------|:-------:|--------:|
 |@actions/core|1.10.1|MIT|
-|@cucumber/cucumber|8.11.1|Apache 2.0<br/>ISC<br/>MIT|
+|@cucumber/cucumber|10.3.1|ISC<br/>MIT|
 |@cucumber/pretty-formatter|1.0.0|MIT|
 |@types/chai|4.3.11|MIT|
 |@types/chai-string|1.4.5|MIT|
