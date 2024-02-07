@@ -4,7 +4,7 @@
 | Dependency | Version | License |
 |:-----------|:-------:|--------:|
 |@actions/core|1.10.0|MIT|
-|@cucumber/cucumber|8.6.0|MIT|
+|@cucumber/cucumber|10.3.1|MIT|
 |@cucumber/pretty-formatter|1.0.0|MIT|
 |@types/chai|4.3.3|MIT|
 |@types/chai-string|1.4.2|MIT|
@@ -29,7 +29,7 @@
 ## Workflows
 | Dependency | Version | License |
 |:-----------|:-------:|--------:|
-|actions/checkout|v3|MIT License|
-|actions/setup-node|v3|MIT License|
+|actions/checkout|v4|MIT License|
+|actions/setup-node|v4|MIT License|
 |actions/upload-artifact|v3|MIT License|
 |pre-commit/action|v3.0.0|MIT License|
