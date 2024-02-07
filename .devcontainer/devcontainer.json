@@ -19,7 +19,6 @@
         "christian-kohler.path-intellisense",
         "esbenp.prettier-vscode",
         "davidanson.vscode-markdownlint",
-        "eg2.vscode-npm-script",
         "christian-kohler.npm-intellisense",
         "alexkrechik.cucumberautocomplete",
         "firsttris.vscode-jest-runner",

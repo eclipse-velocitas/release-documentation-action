@@ -2,11 +2,11 @@
 
 The action `documentation/render` reads all input packages from the `inboxPath` and renders it as markdown to `outboxPath`. Available templates are stored in `templatePath`.
 
-Use the `actions/checkout@v2` action to clone the `release-documentation-action` to a dedicated path, Then appropriate action can be used as shown in below example
+Use the `actions/checkout@v4` action to clone the `release-documentation-action` to a dedicated path, Then appropriate action can be used as shown in below example
 
 ```yml
 - name: Clone actions repository
-  uses: actions/checkout@v2
+  uses: actions/checkout@v4
   with:
     repository: eclipse-velocitas/release-documentation-action
     path: "./.github/actions"
@@ -41,7 +41,7 @@ It also adds a metadata file to the folder containing name, type and format of t
 **Location**
 documentation/package
 
-Use the `actions/checkout@v2` action to clone the `release-documentation-action` to a dedicated path, Then appropriate action can be used as shown in below example
+Use the `actions/checkout@v4` action to clone the `release-documentation-action` to a dedicated path, Then appropriate action can be used as shown in below example
 
 ```yml
 - name: Package integration test result files
