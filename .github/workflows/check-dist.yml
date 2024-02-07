@@ -50,7 +50,7 @@ jobs:
         uses: pre-commit/action@v3.0.0
 
       - name: Perform tests
-        uses: |
+        run: |
           ./test/invoke-test.sh
 
       - name: Rebuild the dist/ directory
