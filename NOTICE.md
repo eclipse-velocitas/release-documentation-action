@@ -17,7 +17,6 @@ SPDX-License-Identifier: Apache-2.0
 
 |      Software       |                                                     License                                                      |
 | :-----------------: | :--------------------------------------------------------------------------------------------------------------: |
-|        Dapr         |                                 https://github.com/dapr/dapr/blob/master/LICENSE                                 |
 |       NodeJS        |                                https://github.com/nodejs/node/blob/master/LICENSE                                |
 |     Powershell      |                         https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt                         |
 |       Python        |                                      https://docs.python.org/3/license.html                                      |

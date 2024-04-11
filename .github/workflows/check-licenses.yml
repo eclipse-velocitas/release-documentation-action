@@ -38,7 +38,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: eclipse-velocitas/license-check
-          ref: v1.2.2
+          ref: v1.2
           path: .github/actions/license-check
 
       - id: run-license-checker
