@@ -32,4 +32,4 @@
 |actions/checkout|v4|MIT License|
 |actions/setup-node|v4|MIT License|
 |actions/upload-artifact|v4|MIT License|
-|pre-commit/action|v3.0.0|MIT License|
+|pre-commit/action|v3.0.1|MIT License|
