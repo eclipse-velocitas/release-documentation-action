@@ -209,7 +209,7 @@
 |luxon|3.2.1|MIT|
 |make-error|1.3.6|ISC|
 |merge2|1.4.1|MIT|
-|micromatch|4.0.5|MIT|
+|micromatch|4.0.8|MIT|
 |minimatch|3.1.2|ISC|
 |minimatch|9.0.3|ISC|
 |minimist|1.2.8|MIT|
