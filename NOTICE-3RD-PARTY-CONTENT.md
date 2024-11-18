@@ -107,7 +107,7 @@
 |commander|9.1.0|MIT|
 |concat-map|0.0.1|MIT|
 |create-require|1.1.1|MIT|
-|cross-spawn|7.0.3|MIT|
+|cross-spawn|7.0.5|MIT|
 |cucumber-console-formatter|1.0.0|ISC|
 |cucumber-tsflow|4.4.1|MIT|
 |date-format|4.0.14|MIT|
