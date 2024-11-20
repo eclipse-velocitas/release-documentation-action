@@ -63,6 +63,32 @@ Use the `actions/checkout@v4` action to clone the `release-documentation-action`
 |sourcePath|true|folder where the action retrieves the raw result files|
 |packagePath|true|target path where the results are copied to |
 
-## Contributing
+# Contributing
 
 For guidance on setting up a development environment and how to make a contribution to the Velocitas Release Documentation Action, see the [contributing guidelines](./CONTRIBUTING.md).
+
+## Updating dependencies
+
+Sometimes dependencies needs to be updated to address vulnerabilities.
+If the vulnerability is known by npm (and a fix is published) you can typically request npm to update all existing vulnerabilities:
+
+```bash
+sudo npm audit fix
+```
+
+If the vulnerability is not (yet) considered as a vulnerability by npm you can update it manually:
+
+```bash
+sudo npm update cross-spawn
+```
+
+After updating you should do some basic checks that the tool is still working:
+
+```bash
+npm run build
+npm run package
+```
+
+After updating dependencies the file `NOTICE-3RD-PARTY-CONTENT.md` needs to be updated.
+The easiest way to do this is to create a Pull Request (preferably as draft),
+then the "Check Licenses" workflow will fail but as output produce content that you can add to the Pull Request.
