@@ -91,4 +91,4 @@ npm run package
 
 After updating dependencies the file `NOTICE-3RD-PARTY-CONTENT.md` needs to be updated.
 The easiest way to do this is to create a Pull Request (preferably as draft),
-then the license check will fail but as output produce content that you can add to the Pull Request.
+then the "Check Licenses" workflow will fail but as output produce content that you can add to the Pull Request.
