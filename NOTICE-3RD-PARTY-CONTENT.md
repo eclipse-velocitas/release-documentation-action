@@ -311,7 +311,7 @@
 |typescript|4.9.5|Apache 2.0|
 |uglify-js|3.17.4|Simplified BSD|
 |underscore|1.13.6|MIT|
-|undici|5.28.4|MIT|
+|undici|5.28.5|MIT|
 |undici-types|5.26.5|MIT|
 |universalify|0.1.2|MIT|
 |upper-case-first|2.0.2|MIT|
