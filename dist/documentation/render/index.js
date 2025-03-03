@@ -39961,7 +39961,7 @@ exports["default"] = _default;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -40063,7 +40063,7 @@ exports.LinuxFileSystemPersistentStore = LinuxFileSystemPersistentStore;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -40146,7 +40146,7 @@ exports.CoberturaParser = CoberturaParser;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -40263,7 +40263,7 @@ exports.JUnitParser = JUnitParser;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -40311,7 +40311,7 @@ exports.ParserFactory = ParserFactory;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -40356,7 +40356,7 @@ exports.TextParser = TextParser;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -40424,7 +40424,7 @@ exports.TestArtifactRenderer = TestArtifactRenderer;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -40461,7 +40461,7 @@ exports.TemplateRepository = TemplateRepository;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -40502,7 +40502,7 @@ var TestArtifactSchemaEnum;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -40540,7 +40540,7 @@ exports.TestArtifact = TestArtifact;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
@@ -40603,7 +40603,7 @@ exports.TestArtifactImporter = TestArtifactImporter;
 
 "use strict";
 
-// Copyright (c) 2022-2024 Contributors to the Eclipse Foundation
+// Copyright (c) 2022-2025 Contributors to the Eclipse Foundation
 //
 // This program and the accompanying materials are made available under the
 // terms of the Apache License, Version 2.0 which is available at
